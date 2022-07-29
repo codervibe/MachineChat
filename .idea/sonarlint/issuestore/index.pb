@@ -1,24 +1,12 @@
 
-O
-src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
 R
 "src/main/webapp/js/jquery-3.3.1.js,d\2\d2af7c557ab0723c7b0d7411109bb9a7ac28f6f1
-M
-src/main/webapp/css/index.css,7\8\7839e85e628b9e7f25e4d84a018e9af3b9754b15
-Q
-!src/main/webapp/pages/Success.jsp,9\e\9e31c0256fada097fe1c23f28402c0de6c6c109f
 S
 #.idea/artifacts/MachineChat_war.xml,7\e\7e620c0f5637a9a3332753f5014725cd1b7fb316
 R
 "src/main/webapp/js/jquery-3.4.1.js,7\b\7ba3044ede13eefe4b99696334c82abf259999ff
 k
 ;src/main/java/com/chat/service/Impl/WeatherServiceImpl.java,c\7\c7cc3e6243a529a081772923e04f793527a47ded
-^
-.src/main/java/com/chat/Utils/WeatherUtils.java,5\0\501ae55670d3e7189a23e0a94b14b965c5967c2d
-W
-'src/main/java/com/chat/domain/User.java,0\5\050a3c110623ad858b658c5d0080dd812fd76c3d
-W
-'src/main/java/com/chat/dao/UserDao.java,0\a\0ad507422f5ac33f019ebed5d14cb4a4a19f0c92
 ?
 MachineChat.iml,c\b\cb97ffcbcbfa4df166f4472bd3fa72d335ede1cd
 \
@@ -89,13 +77,7 @@ z
 J.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml,5\5\55eb06712a0a8862acd593e52eaebe42600a2514
 c
 3.idea/libraries/Maven__org_webjars_jquery_3_4_1.xml,e\7\e786917dede76546e76f1f543cfc70832fcc0757
-W
-'src/main/java/com/chat/domain/Chat.java,6\0\601d06ce59ec1186b05d0213ef70956a03cc39e9
-W
-'src/main/java/com/chat/dao/ChatDao.java,8\b\8ba335edb18d87d573de3fd93f92f026bdfb8ade
 h
 8src/main/java/com/chat/service/Impl/ChatServiceImpl.java,4\9\4990a8b626823ce8ea9b64454a85a1e8ef8fa187
-I
-src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
 S
 #src/main/webapp/js/jquery-1.12.3.js,0\3\0318e59ae9c71b82c6fb1f5ddda3ed35b6b0dfc6

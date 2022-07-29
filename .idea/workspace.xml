@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46665ef1-6b12-4138-a3f0-fa36fc9540f0" name="默认变更列表" comment="init Commit&#10;初始化提交 （复原）">
-      <change beforePath="$PROJECT_DIR$/.idea/MachineChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MachineChat.iml" afterDir="false" />
+    <list default="true" id="46665ef1-6b12-4138-a3f0-fa36fc9540f0" name="默认变更列表" comment="由于 最重要的文字转语音 的 插件已经消失（很早以前我自己做的） 因为那个致命的BUG 我已经把它删掉了 所以 这个项目就当是个怀旧吧~~~~">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chat/Utils/Word2SoundUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chat/web/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chat/web/controller/ChatController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +66,16 @@
       <updated>1651570961524</updated>
       <workItem from="1651570963007" duration="4000" />
       <workItem from="1659088166638" duration="1055000" />
-      <workItem from="1659089322135" duration="2843000" />
+      <workItem from="1659089322135" duration="3516000" />
     </task>
+    <task id="LOCAL-00001" summary="由于 最重要的文字转语音 的 插件已经消失（很早以前我自己做的） 因为那个致命的BUG 我已经把它删掉了 所以 这个项目就当是个怀旧吧~~~~">
+      <created>1659099247219</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659099247219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init Commit&#10;初始化提交 （复原）" />
-    <option name="LAST_COMMIT_MESSAGE" value="init Commit&#10;初始化提交 （复原）" />
+    <MESSAGE value="由于 最重要的文字转语音 的 插件已经消失（很早以前我自己做的） 因为那个致命的BUG 我已经把它删掉了 所以 这个项目就当是个怀旧吧~~~~" />
+    <option name="LAST_COMMIT_MESSAGE" value="由于 最重要的文字转语音 的 插件已经消失（很早以前我自己做的） 因为那个致命的BUG 我已经把它删掉了 所以 这个项目就当是个怀旧吧~~~~" />
   </component>
 </project>

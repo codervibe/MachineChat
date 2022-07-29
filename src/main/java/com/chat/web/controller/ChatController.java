@@ -1,6 +1,5 @@
 package com.chat.web.controller;
 
-import com.chat.Utils.Word2SoundUtils;
 import com.chat.domain.Chat;
 import com.chat.service.ChatService;
 import com.chat.service.WeatherService;
@@ -60,8 +59,8 @@ public class ChatController {
         new Thread(new Runnable() {
             @Override
             public void run() {
-        Word2SoundUtils.text2speak(Answer);
-        Word2SoundUtils.text2speak(finalWeatherInfo);
+//        Word2SoundUtils.text2speak(Answer);
+//        Word2SoundUtils.text2speak(finalWeatherInfo);
 
             }
         }).start();

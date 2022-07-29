@@ -5,3 +5,4 @@
 > jdk 1.8
 > mysql 5.5
 > 框架使用 Spring +SpringMVC + Mybatis
+* 要改造它或者说要升级它就要 解决之前的那个BUG 再来打破重来吧 这个项目重要的 插件已经消失了

@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46665ef1-6b12-4138-a3f0-fa36fc9540f0" name="默认变更列表" comment="" />
+    <list default="true" id="46665ef1-6b12-4138-a3f0-fa36fc9540f0" name="默认变更列表" comment="init Commit&#10;初始化提交 （复原）">
+      <change beforePath="$PROJECT_DIR$/.idea/MachineChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MachineChat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chat/Utils/Word2SoundUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chat/web/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chat/web/controller/ChatController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -23,6 +34,7 @@
     </option>
   </component>
   <component name="ProjectId" id="28eJ8Lt5IuALNrZDY6YnfrMZ6dc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -32,8 +44,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/java/idea_java_maven/MachineChat",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "ec442258ec7d88081e8a3546c1516ec6",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -54,11 +69,27 @@
       <option name="presentableId" value="Default" />
       <updated>1651570961524</updated>
       <workItem from="1651570963007" duration="4000" />
-      <workItem from="1659088166638" duration="562000" />
+      <workItem from="1659088166638" duration="1055000" />
+      <workItem from="1659089322135" duration="2843000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init Commit&#10;初始化提交 （复原）" />
+    <option name="LAST_COMMIT_MESSAGE" value="init Commit&#10;初始化提交 （复原）" />
   </component>
 </project>

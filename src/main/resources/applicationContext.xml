@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context 
+                        http://www.springframework.org/schema/context/spring-context.xsd
+                        http://www.springframework.org/schema/mvc
+                        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--注解扫描-->
+    <context:component-scan base-package="com.chat">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+<!--Spring整合mybatis-->
+<!--配置连接池-->
+
+        <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+            <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+            <property name="jdbcUrl" value="jdbc:mysql://localhost:3308/MachineChat"/>
+            <property name="user" value="root"/>
+            <property name="password" value="admin"/>
+        </bean>
+<!--配置SqlSessionFactory工厂-->
+    <bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+<!--配置UserDao所在的包-->
+<bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="com.chat.dao"></property>
+</bean>
+
+    <!-- json-->
+
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" >
+        <property name="messageConverters">
+            <list>
+                <!-- json转换器 -->
+                <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" />
+            </list>
+        </property>
+    </bean>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--    &lt;!&ndash;加载外部的properties文件&ndash;&gt;-->
+<!--    <context:property-placeholder location="classpath:jdbc.properties"/>-->
+<!--&lt;!&ndash;    <context:property-placeholder location="classpath:application-mybatis.xml"/>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;配置数据源&ndash;&gt;-->
+<!--    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+<!--        <property name="driverClass" value="${jdbc.driver}"></property>-->
+<!--        <property name="jdbcUrl" value="${jdbc.url}"></property>-->
+<!--        <property name="user" value="${jdbc.username}"></property>-->
+<!--        <property name="password" value="${jdbc.password}"></property>-->
+<!--    </bean>-->
+
+
+</beans>
